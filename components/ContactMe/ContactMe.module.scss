@@ -1,0 +1,11 @@
+.container {
+  padding-bottom: 5.625rem;
+  padding-top: 5.625rem;
+}
+
+@media (min-width: 48em) {
+  .container {
+    padding-bottom: 7.5rem;
+    padding-top: 7.5rem;
+  }
+}

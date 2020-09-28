@@ -1,0 +1,67 @@
+@import "../../styles/variables";
+
+.modal {
+  background: $light;
+  display: none;
+  height: 100vh;
+  left: 0;
+  padding: 3rem 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9;
+
+  &.active {
+    display: block;
+  }
+}
+
+.label,
+.error {
+  display: block;
+  font-size: 0.8125rem;
+  line-height: 1;
+  margin: 0 0 0.625rem;
+}
+
+.label {
+  color: $neutro;
+}
+
+.input,
+.textarea {
+  border: 0;
+  border-bottom: 1px solid $neutro;
+  display: block;
+  font-size: 1rem;
+  margin: 0 0 1.5rem;
+  padding: 0.3125rem;
+  width: 100%;
+}
+
+.textarea {
+  min-height: 10rem;
+}
+
+.error {
+  color: $error;
+  margin: -1rem 0 1rem;
+}
+
+.checkbox {
+  margin: 0 0 1rem;
+
+  input {
+    margin: 0 0.5rem 0 0;
+  }
+
+  .error {
+    margin-top: -.25rem;
+  }
+}
+
+.close {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+}

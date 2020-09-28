@@ -1,0 +1,10 @@
+@import '../../styles/variables';
+
+.footer {
+  background: $dark;
+  color: $light;
+}
+
+.logo {
+  path { fill: $light; }
+}

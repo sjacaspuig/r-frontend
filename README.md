@@ -1,30 +1,97 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Frontend Developer Test
 
-## Getting Started
+## Objetivo
 
-First, run the development server:
+El proyecto es un portfolio que está bastante avanzado, pero hay elementos pendientes de terminar y otros que no funcionan correctamente, que tendrás que solucionar.
 
-```bash
-npm run dev
-# or
-yarn dev
+El objetivo es valorar tu capacidad de comprensión, toma de decisiones, mejora y finalización del proyecto.
+
+**La duración de la prueba debe ser inferior a las 6 horas.** ⏱
+
+## ¿Cómo empezar?
+
+1. Aquí tienes el [link al diseño en Figma](https://www.figma.com/file/bZ5WjEAxAZnCOmNXMnKbXJ/Frontend-Developer-Test?node-id=20%3A100)
+2. Hacer un repositorio nuevo utilizando este como base **(sin hacer un fork)**.
+3. Hacer al menos un primer commit con el código original, para ver la hora de inicio.
+4. Hacer commits individuales por cada bloque que vayas haciendo. El último commit marca el final.
+5. Envíanos el link a tu repositorio
+
+## ¿Qué valoraremos?
+
+* Utilización y re-utilización de componentes modulares
+* Mobile first & RWD
+* Uso de Git
+* Web Performance Optimization
+* Simplicidad de la solución
+* Fidelidad del diseño propuesto
+* Optimización y mejora de recursos
+* Compatibilidad de navegadores
+* Organización y calidad de código
+
+## Tareas a realizar
+
+Eres libre de modificar cualquier parte del código y/o estructura del proyecto, según convengas. Pero requeriremos que las siguientes tareas estén completadas:
+
+- [ ] Añadir estilos al _Header_ y _Footer_
+- [ ] Añadir funcionalidad para mostrar la navegación _mobile_ utilizando las funciones proporcionadas
+- [ ] Optimizar el componente de cabecera de las páginas _Home_ y _Portfolio_
+- [ ] Añadir los estilos de la grid. Solo son dos columnas, pero deberás tener en cuenta el diseño proporcionado. Las clases y estructura del HTML ya están montadas, solo es necesario añadir los estilos.
+- [ ] Añadir estilos del botón, tiene dos tipologías: normal (relleno) y hollow (solo borde). Debería poder funcionar con cualquier elemento HTML.
+- [ ] Hacer que funcione la validación del formulario de contacto
+- [ ] Solucionar el funcionamiento de la ventana modal del formulario de contacto
+- [ ] Añadir estilos a la navegación entre proyectos en la página de detalle de proyecto (`sanderson.jsx`)
+- [ ] Afinar la maquetación al diseño proporcionado
+- [ ] Mejorar la carga de recursos (tipografías, imágenes, etc) para mejorar la performance
+- [ ] Compatibilidad en las 2 últimas versiones de navegadores
+
+## ⭐️ Bonus points
+
+Si **has cumplido todos las tareas a realizar**, con los requisitos que valoramos, y aún te sobra tiempo, puedes mejorar tu prueba
+ampliando con estos nuevos requisitos (recomendamos seguir el orden definido):
+
+- [ ] Mejora de accesibilidad web
+- [ ] Mantener el menú activo en la página correspondiente
+- [ ] Animación del menú mobile y ventana modal
+- [ ] Test con Jest
+
+## Estructura del proyecto
+
+```
+.
+├── components
+│   ├── ContactMe — módulo de contacto transversal
+│   ├── ContactModal — ventana modal con formulario de contacto
+│   ├── Footer — pie de página
+│   └── Header — cabecera de página
+├── contexts
+│   └── AppContext.js — React Context API
+├── pages
+│   ├── portfolio
+│   │   ├── index.jsx — página Portfolio listado
+│   │   └── sanderson.jsx — página detalle de portfolio
+│   ├── _app.jsx — página base de Next.js
+│   └── index.jsx — Home page
+├── public
+│   └── (...) — imágenes y SVG's del proyecto
+└── styles
+    ├── _variables.scss — colores, tipografías
+    ├── buttons.scss — archivo para los estilos de los botones
+    ├── container.scss — contenedor del contenido de la web
+    ├── globals.scss — estilos globales
+    ├── grid.scss — archivo para los estilos de la grid
+    └── xxx.module.scss — estilos específicos de las páginas
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ¿Cómo ejecutar el proyecto?
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+El proyecto está desarrollado con **Next.js**, puedes encontrar más información en la [documentación de Next.js](https://nextjs.org/docs).
 
-## Learn More
+Para ejecutar el servidor de desarrollo, una vez instaladas los _packages_ de Node:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+yarn dev
+# o
+npm run dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Abre [http://localhost:3000](http://localhost:3000) en tu navegador.

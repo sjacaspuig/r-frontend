@@ -14,7 +14,7 @@
 
 .nav {
   opacity: 0;
-  position: absolute;
+  position: relative;
   z-index: -1;
 
   &.active {
@@ -23,15 +23,22 @@
   }
 }
 
-.link {
-  margin: 0 2.5rem;
+.linkItem {
+  margin: 0 .5rem;
 
+  &:first-child { margin-left: 0; }
   &:last-child { margin-right: 0; }
+}
 
+.link {
   &.active,
   &:hover {
     color: $primary;
   }
+}
+
+.navList {
+  display: flex;
 }
 
 @media (min-width: 48em) {
@@ -48,7 +55,7 @@
     z-index: 1;
   }
 
-  .navList {
-    display: flex;
+  .linkItem {
+    margin: 0 1.5rem;
   }
 }

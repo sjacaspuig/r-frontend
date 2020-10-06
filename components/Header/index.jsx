@@ -18,24 +18,24 @@ const Header = () => {
       </Link>
       <nav className={`${styles.nav} ${menu ? styles.active : ''}`}>
         <ul className={styles.navList}>
-          <li>
+          <li className={styles.linkItem}>
             <Link href="/">
               <a className={styles.link}>Home</a>
             </Link>
           </li>
-          <li>
+          <li className={styles.linkItem}>
             <Link href="/portfolio">
               <a className={styles.link}>Portfolio</a>
             </Link>
           </li>
-          <li>
-            <a className={styles.link}>Contáctame</a>
+          <li className={styles.linkItem}>
+            <a className={styles.link} onClick={toggleContactModal}>Contáctame</a>
           </li>
         </ul>
       </nav>
       <div className={styles.trigger}>
-        {menu && <Cross className={styles.cross} />}
-        {!menu && <Menu className={styles.menu} />}
+        {menu && <Cross className={styles.cross} onClick={toggleMenu}/>}
+        {!menu && <Menu className={styles.menu} onClick={toggleMenu}/>}
       </div>
     </header>
   );

@@ -1,14 +1,13 @@
 @import '../../styles/variables';
 
-.header,
-.nav {
+.header, .nav {
   align-items: center;
   display: flex;
 }
 
 .header {
   justify-content: space-between;
-  margin-bottom: 1.25rem;
+  margin-bottom: 2.25rem;
   padding-bottom: .625rem;
   padding-top: .625rem;
 }
@@ -47,5 +46,9 @@
     opacity: 1;
     position: initial;
     z-index: 1;
+  }
+
+  .navList {
+    display: flex;
   }
 }

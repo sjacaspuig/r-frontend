@@ -8,33 +8,33 @@ import styles from './Footer.module.scss';
 
 const Footer = () => {
   return (
-    <footer className={styles.footer}>
+    <footer className={`container ${styles.footer}`}>
       <Link href="/">
-        <a>
+        <a className={styles.linkLogo}>
           <Logo className={styles.logo} />
         </a>
       </Link>
       <nav>
-        <ul className={styles.navList}>
-          <li>
+        <ul>
+          <li className={styles.navItem}>
             <Link href="/">
               <a className={styles.link}>Home</a>
             </Link>
           </li>
-          <li>
+          <li className={styles.navItem}>
             <Link href="/portfolio">
               <a className={styles.link}>Portfolio</a>
             </Link>
           </li>
-          <li>
+          <li className={styles.navItem}>
             <Link href="/contact">
               <a className={styles.link}>Contáctame</a>
             </Link>
           </li>
         </ul>
       </nav>
-      <nav>
-        <ul>
+      <nav className={styles.nav}>
+        <ul className={styles.navList}>
           <li>
             <Behance />
           </li>

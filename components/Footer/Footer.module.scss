@@ -5,6 +5,70 @@
   color: $light;
 }
 
+.linkLogo {
+  display: block;
+  padding: 25px 0;
+}
+
 .logo {
+  display: block;
+  margin: auto;
   path { fill: $light; }
+}
+
+.nav {
+  max-width: 175px;
+  width: 40%;
+  margin: auto;
+  padding: 55px 0 25px;
+}
+
+.navList{
+  display: flex;
+  justify-content: space-between;
+}
+
+.navItem {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+
+@media (min-width: 48em) {
+  .footer {
+    display: flex;
+    padding-top: 55px;
+    padding-bottom: 30px;
+  }
+
+  .linkLogo {
+    padding: 0;
+  }
+
+  .nav {
+    width: 15%;
+    max-width: 130px;
+    margin: 0;
+    margin-left: auto;
+    padding: 0;
+  }
+  
+  .navList{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+
+  .navItem {
+    text-align: unset;
+    padding-bottom: 0;
+    display: inline-block;
+    margin-left: 40px;
+    line-height: 1.6rem;
+
+    &:first-child {
+      margin-left: 30px;
+    }
+  }
 }

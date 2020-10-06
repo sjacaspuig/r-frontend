@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { useRouter } from "next/router";
 
 import { useAppContext } from '../../contexts/AppContext';
 import Cross from '../../public/cross.svg';
@@ -8,6 +9,7 @@ import styles from './Header.module.scss';
 
 const Header = () => {
   const { menu, toggleContactModal, toggleMenu } = useAppContext();
+  const router = useRouter();
 
   return (
     <header className={`container ${styles.header}`}>
@@ -20,12 +22,12 @@ const Header = () => {
         <ul className={styles.navList}>
           <li className={styles.linkItem}>
             <Link href="/">
-              <a className={styles.link}>Home</a>
+              <a className={`${styles.link} ${router.pathname == "/" ? styles.active : ""}`}>Home</a>
             </Link>
           </li>
           <li className={styles.linkItem}>
             <Link href="/portfolio">
-              <a className={styles.link}>Portfolio</a>
+              <a className={`${styles.link} ${router.pathname == "/portfolio" ? styles.active : ""}`}>Portfolio</a>
             </Link>
           </li>
           <li className={styles.linkItem}>

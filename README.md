@@ -52,7 +52,7 @@ ampliando con estos nuevos requisitos (recomendamos seguir el orden definido):
 - [ ] Mejora de accesibilidad web
 - [X] Mantener el menú activo en la página correspondiente
 - [x] Animación del menú mobile y ventana modal
-- [ ] Test con Jest
+- [x] Test con Jest
 
 ## Estructura del proyecto
 

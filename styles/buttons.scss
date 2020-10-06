@@ -3,8 +3,15 @@
 .button {
   background: $primary;
   color: $light;
+  border: 1px solid $primary;
+  border-radius: 2px;
+  padding: 10px 45px;
+  font-size: 11px;
+  text-transform: uppercase;
+  line-height: 13px;
 
   &--hollow {
-
+    background: $light;
+    color: $primary;
   }
 }

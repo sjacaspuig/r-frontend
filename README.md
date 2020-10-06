@@ -36,7 +36,7 @@ Eres libre de modificar cualquier parte del código y/o estructura del proyecto,
 - [x] Añadir funcionalidad para mostrar la navegación _mobile_ utilizando las funciones proporcionadas
 - [x] Optimizar el componente de cabecera de las páginas _Home_ y _Portfolio_
 - [ ] Añadir los estilos de la grid. Solo son dos columnas, pero deberás tener en cuenta el diseño proporcionado. Las clases y estructura del HTML ya están montadas, solo es necesario añadir los estilos.
-- [ ] Añadir estilos del botón, tiene dos tipologías: normal (relleno) y hollow (solo borde). Debería poder funcionar con cualquier elemento HTML.
+- [x] Añadir estilos del botón, tiene dos tipologías: normal (relleno) y hollow (solo borde). Debería poder funcionar con cualquier elemento HTML.
 - [ ] Hacer que funcione la validación del formulario de contacto
 - [x] Solucionar el funcionamiento de la ventana modal del formulario de contacto
 - [ ] Añadir estilos a la navegación entre proyectos en la página de detalle de proyecto (`sanderson.jsx`)

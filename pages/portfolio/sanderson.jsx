@@ -23,6 +23,11 @@ const Portfolio = () => {
           <div className="grid">
             <div className="column">
               <h1>Sanderson</h1>
+              <nav className={styles.galleryNavigation}>
+                <a className={styles.galleryLink} href="#gallery">
+                  Ver galería →
+                </a>
+              </nav>
               <p className={styles.highlight}>
                 Mental games, optical illusions, to eccentricities, to dreams, to successful
                 impossibilities. When you arrive in the hotel, you do not really understand what is
@@ -31,7 +36,7 @@ const Portfolio = () => {
               </p>
             </div>
             <div className="column">
-              <p>
+              <p className={styles.firstParagraph}>
                 The Sanderson hotel designed by Jonas Kahnwald opened its doors in 1998 in London.
               </p>
               <p>

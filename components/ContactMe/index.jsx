@@ -8,8 +8,8 @@ const ContactMe = () => {
   return (
     <section className={`container ${styles.container}`}>
       <div className="grid">
-        <div className="column display">Te interesa hacer un proyecto juntxs?</div>
-        <div className="column">
+        <div className={`column display ${styles.display}`}>Te interesa hacer un proyecto juntxs?</div>
+        <div className={`column ${styles.column}`}>
           <a className="button button--hollow" onClick={toggleContactModal}>
             Contáctame
           </a>

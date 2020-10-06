@@ -1,11 +1,31 @@
+@import "../../styles/variables";
+
 .container {
   padding-bottom: 5.625rem;
   padding-top: 5.625rem;
+}
+
+.display {
+  text-align: center;
+  font-family: $secondaryFont;
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.column {
+  text-align: center;
+  margin-top: 45px;
 }
 
 @media (min-width: 48em) {
   .container {
     padding-bottom: 7.5rem;
     padding-top: 7.5rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
+  }
+
+  .display {
+    text-align: start;
   }
 }

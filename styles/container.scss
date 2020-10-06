@@ -5,5 +5,8 @@
   width: 100%;
 
   &--medium { max-width: 64rem; }
-  &--small { max-width: 40rem; }
+  &--small { 
+    max-width: 40rem; 
+    margin: 50px auto;
+  }
 }

@@ -40,7 +40,7 @@ Eres libre de modificar cualquier parte del código y/o estructura del proyecto,
 - [x] Hacer que funcione la validación del formulario de contacto
 - [x] Solucionar el funcionamiento de la ventana modal del formulario de contacto
 - [x] Añadir estilos a la navegación entre proyectos en la página de detalle de proyecto (`sanderson.jsx`)
-- [ ] Afinar la maquetación al diseño proporcionado
+- [x] Afinar la maquetación al diseño proporcionado
 - [ ] Mejorar la carga de recursos (tipografías, imágenes, etc) para mejorar la performance
 - [ ] Compatibilidad en las 2 últimas versiones de navegadores
 

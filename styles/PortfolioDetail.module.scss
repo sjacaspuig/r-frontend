@@ -8,7 +8,7 @@
 }
 
 .gallery {
-  align-items: flex-start;
+  align-items: flex-left;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -35,13 +35,13 @@
   border-bottom: 1px solid $neutro;
 
   &.next {
-    text-align: end;
+    text-align: right;
     padding-left: 25px;
     border-top: 1px solid $neutro;
   }
 
   &.previous {
-    text-align: start;
+    text-align: left;
     padding-right: 30px;
   }
 }
@@ -91,11 +91,11 @@
   
     &.next {
       border-right: 1px solid $neutro;
-      text-align: start;
+      text-align: left;
     }
 
     &.previous {
-      text-align: end;
+      text-align: right;
       border-top: 1px solid $neutro;
     }
   }

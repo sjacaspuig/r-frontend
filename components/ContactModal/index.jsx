@@ -36,7 +36,7 @@ const ContactModal = () => {
   return (
     <div className={`${styles.modal} ${contactModal && styles.active}`}>
       <div className="container container--small">
-        <Cross className={styles.close} />
+        <Cross className={styles.close} onClick={toggleContactModal}/>
         <ContactForm
           maxlength="Este campo no debe ser mayor de xx caracteres"
           required="Este campo es obligatorio"

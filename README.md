@@ -38,7 +38,7 @@ Eres libre de modificar cualquier parte del código y/o estructura del proyecto,
 - [ ] Añadir los estilos de la grid. Solo son dos columnas, pero deberás tener en cuenta el diseño proporcionado. Las clases y estructura del HTML ya están montadas, solo es necesario añadir los estilos.
 - [ ] Añadir estilos del botón, tiene dos tipologías: normal (relleno) y hollow (solo borde). Debería poder funcionar con cualquier elemento HTML.
 - [ ] Hacer que funcione la validación del formulario de contacto
-- [ ] Solucionar el funcionamiento de la ventana modal del formulario de contacto
+- [x] Solucionar el funcionamiento de la ventana modal del formulario de contacto
 - [ ] Añadir estilos a la navegación entre proyectos en la página de detalle de proyecto (`sanderson.jsx`)
 - [ ] Afinar la maquetación al diseño proporcionado
 - [ ] Mejorar la carga de recursos (tipografías, imágenes, etc) para mejorar la performance

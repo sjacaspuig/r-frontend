@@ -1,3 +1,11 @@
-.grid {}
 
-.column {}
+@media (min-width: 48em) {
+    .grid {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .column {
+        max-width: 47.5%;
+    }
+}

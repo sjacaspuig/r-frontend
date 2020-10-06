@@ -39,7 +39,7 @@ Eres libre de modificar cualquier parte del código y/o estructura del proyecto,
 - [x] Añadir estilos del botón, tiene dos tipologías: normal (relleno) y hollow (solo borde). Debería poder funcionar con cualquier elemento HTML.
 - [x] Hacer que funcione la validación del formulario de contacto
 - [x] Solucionar el funcionamiento de la ventana modal del formulario de contacto
-- [ ] Añadir estilos a la navegación entre proyectos en la página de detalle de proyecto (`sanderson.jsx`)
+- [x] Añadir estilos a la navegación entre proyectos en la página de detalle de proyecto (`sanderson.jsx`)
 - [ ] Afinar la maquetación al diseño proporcionado
 - [ ] Mejorar la carga de recursos (tipografías, imágenes, etc) para mejorar la performance
 - [ ] Compatibilidad en las 2 últimas versiones de navegadores
